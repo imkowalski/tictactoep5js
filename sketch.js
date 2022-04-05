@@ -1,4 +1,4 @@
-const size = window.innerWidth * 0.5
+const size = window.innerWidth * 0.5 * (window.innerHeight / window.innerWidth);
 
 
 let board = [
