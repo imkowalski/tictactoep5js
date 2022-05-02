@@ -175,10 +175,6 @@ function gameOver() {
     textSize(24)
     text("Press R to restart", width / 2, height / 2 + 40)
 
-    // if key m is pressed
-    if (keyIsPressed == true && keyCode == 77) {
-        console.log(2)
-    }
     pop()
 }
 
